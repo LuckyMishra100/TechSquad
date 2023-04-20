@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TechSquad.Application",
+    "\\TechSquad.Models",
+    "\\TechSquad.Models\\Models",
+    "\\TechSquad.Services",
+    "\\TechSquad.Services\\Data",
+    "\\TechSquad.Services\\Data\\IRepository",
+    "\\TechSquad.Services\\IServices",
+    "\\TechSquad.Services\\Services"
+  ],
+  "SelectedNode": "\\TechSquad.sln",
+  "PreviewInSolutionExplorer": false
+}
