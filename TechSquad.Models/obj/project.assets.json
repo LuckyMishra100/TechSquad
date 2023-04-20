@@ -5909,7 +5909,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.14",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.14",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.14",
+      "Microsoft.Extensions.Identity.Stores >= 5.0.14"
     ]
   },
   "packageFolders": {
@@ -5979,6 +5980,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.14, )"
+          },
+          "Microsoft.Extensions.Identity.Stores": {
             "target": "Package",
             "version": "[5.0.14, )"
           }

@@ -9,6 +9,6 @@ namespace TechSquad.Models.Models
 {
     public class ApplicationUser:IdentityUser
     {
-       
+
     }
 }
