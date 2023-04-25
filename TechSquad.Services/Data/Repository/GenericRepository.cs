@@ -6,6 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using TechSquad.Application.Data;
+using TechSquad.Models.Models;
 using TechSquad.Services.Data.IRepository;
 
 namespace TechSquad.Services.Data.Repository
@@ -17,34 +18,13 @@ namespace TechSquad.Services.Data.Repository
         public GenericRepository(ApplicationDbContext context)
         {
             _context = context;
+            this.dbSet = _context.Set<T>();
         }
 
-        public virtual IEnumerable<T> GetAll(
-         Expression<Func<T, bool>> filter = null,
-         Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-         string includeProperties = "")
+        public IEnumerable<T> GetAll()
         {
             IQueryable<T> query = dbSet;
-
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
-
-            foreach (var includeProperty in includeProperties.Split
-                (new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-            {
-                query = query.Include(includeProperty);
-            }
-
-            if (orderBy != null)
-            {
-                return orderBy(query).ToList();
-            }
-            else
-            {
-                return query.ToList();
-            }
+            return query.ToList();
         }
 
         public virtual T GetByID(object id)

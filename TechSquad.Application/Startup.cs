@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,12 +8,17 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NToastNotify;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TechSquad.Application.Data;
+using TechSquad.Application.Mapping;
 using TechSquad.Models.Models;
+using TechSquad.Services.Data;
+using TechSquad.Services.IServices;
+using TechSquad.Services.Services;
 
 namespace TechSquad.Application
 {
@@ -36,6 +42,26 @@ namespace TechSquad.Application
            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            #region Automapper
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfiles());
+            });
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+            #endregion
+
+            #region NToastNotify
+            services.AddRazorPages().AddNToastNotifyNoty(new NotyOptions
+            {
+                ProgressBar = true,
+                Timeout = 5000
+            });
+            #endregion
+
+            services.AddTransient<IUserManagerService, UserManagerService>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +85,7 @@ namespace TechSquad.Application
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseNToastNotify();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
@@ -69,4 +95,6 @@ namespace TechSquad.Application
             });
         }
     }
+
+    
 }

@@ -12,3 +12,4 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Models\obj\Debug\net5.0\TechSquad.Mod
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Models\obj\Debug\net5.0\ref\TechSquad.Models.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Models\obj\Debug\net5.0\TechSquad.Models.pdb
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Models\obj\Debug\net5.0\TechSquad.Models.genruntimeconfig.cache
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Models\obj\Debug\net5.0\TechSquad.Models.csproj.AssemblyReference.cache

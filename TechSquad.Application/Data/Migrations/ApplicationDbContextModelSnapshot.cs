@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TechSquad.Application.Data;
+using TechSquad.Models.Models;
 
 namespace TechSquad.Application.Data.Migrations
 {

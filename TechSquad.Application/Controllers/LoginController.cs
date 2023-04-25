@@ -76,7 +76,7 @@ namespace TechSquad.Application.Controllers
             {
                 Email = model.Email,
                 UserName = model.Email,
-                Password=model.Password
+                //Password=model.Password
             };
             IdentityResult result = await _userManager.CreateAsync(newUser, model.Password);
             if (!result.Succeeded)

@@ -286,6 +286,7 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\refs\Sys
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\refs\WindowsBase.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Application.Views.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Application.Views.pdb
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\AutoMapper.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Humanizer.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -293,6 +294,7 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsof
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -328,6 +330,9 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsof
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\NToastNotify.Views.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\NToastNotify.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\System.Composition.Convention.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -405,7 +410,9 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\runtimes
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Models.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Services.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Models.pdb
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Services.pdb
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.csproj.AssemblyReference.cache
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.AssemblyInfoInputs.cache
@@ -421,13 +428,16 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\scopedcs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.TagHelpers.input.cache
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.TagHelpers.output.cache
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.RazorCoreGenerate.cache
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\AddUser.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\AdminDashboard.cshtml.g.cs
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\UserList.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Login\Register.cshtml.g.cs
-E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\AdminLayout.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\_AdminSideBar.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

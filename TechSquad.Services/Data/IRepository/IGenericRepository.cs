@@ -9,10 +9,7 @@ namespace TechSquad.Services.Data.IRepository
 {
     public interface IGenericRepository<T>
     {
-        IEnumerable<T> GetAll(
-           Expression<Func<T, bool>> filter = null,
-           Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-           string includeProperties = "");
+        IEnumerable<T> GetAll();
 
         T GetByID(object id);
 

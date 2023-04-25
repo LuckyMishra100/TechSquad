@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechSquad.Application.Data;
+using TechSquad.Models.Models;
 using TechSquad.Services.Data.IRepository;
 using TechSquad.Services.Data.Repository;
 

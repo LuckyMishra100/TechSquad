@@ -5,16 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="IServices\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TechSquad.Application\TechSquad.Application.csproj" />
+    <ProjectReference Include="..\TechSquad.Models\TechSquad.Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
 using TechSquad.Application.Data;
+using TechSquad.Models.Models;
 
 namespace TechSquad.Application.Data.Migrations
 {
