@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "n3NfCs4szWSo0H4V5DRAoSakMNEFJvegciAdycnWQyrX5rshFzfunIyIMz7Kz2rIPnBg53jl4R2ktn2Fe8RCsg==",
+  "dgSpecHash": "X0VeNXZDaOidMxGCEn2ErTGdxuEEpHh8Gwd36vSADTQw41cBZIBmFtnKC8MVzroDE6Daum1PSHe82uGNRy3N+A==",
   "success": true,
   "projectFilePath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.14\\microsoft.aspnetcore.cryptography.internal.5.0.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.14\\microsoft.aspnetcore.cryptography.keyderivation.5.0.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.14.nupkg.sha512",

@@ -1,4 +1,6 @@
 using AutoMapper;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -16,6 +18,7 @@ using System.Threading.Tasks;
 using TechSquad.Application.Data;
 using TechSquad.Application.Mapping;
 using TechSquad.Models.Models;
+using TechSquad.Models.ViewModels;
 using TechSquad.Services.Data;
 using TechSquad.Services.IServices;
 using TechSquad.Services.Services;
@@ -39,9 +42,23 @@ namespace TechSquad.Application
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-           services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
+
+            #region FluentValidation
+            services.AddValidatorsFromAssemblyContaining<RegisterViewModelValidator>();
+            services.AddScoped<IValidator<RegisterViewModel>, RegisterViewModelValidator>();
+
+            services.AddAuthentication()
+               .AddGoogle(options =>
+               {
+                   options.ClientId = Configuration["web:client_id"];
+                   options.ClientSecret = Configuration["web:client_secret"];
+               });
+            #endregion
+
             #region Automapper
             var mapperConfig = new MapperConfiguration(mc =>
             {
@@ -59,8 +76,11 @@ namespace TechSquad.Application
             });
             #endregion
 
+            #region DI
             services.AddTransient<IUserManagerService, UserManagerService>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            #endregion
+
 
         }
 

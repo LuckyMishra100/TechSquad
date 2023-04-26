@@ -19,12 +19,14 @@ namespace TechSquad.Application.Controllers
         private readonly IMapper _mapper;
         private readonly IToastNotification _toastNotification;
         private readonly UserManager<ApplicationUser> _userManager;
-        public AdminController(IUserManagerService userManagerService, IMapper mapper, IToastNotification toastNotification, UserManager<ApplicationUser> userManager)
+        private RoleManager<IdentityRole> _roleManager;
+        public AdminController(IUserManagerService userManagerService, IMapper mapper, IToastNotification toastNotification, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _userManagerService = userManagerService;
             _mapper = mapper;
             _toastNotification = toastNotification;
             _userManager = userManager;
+            _roleManager = roleManager;
         }
         public IActionResult Index()
         {
@@ -72,20 +74,54 @@ namespace TechSquad.Application.Controllers
             return View("AddUser",user);
         }
 
-        //public IActionResult DeleteUser(int id)
-        //{
-        //    var status = _userManager.del
-        //    if (status)
-        //    {
-        //        _toastNotification.AddSuccessToastMessage("User Deleted Successfully");
-        //    }
-        //    else
-        //    {
-        //        _toastNotification.AddErrorToastMessage("Some Error Occured");
-        //    }
-        //    return View("UserList");
-        //}
+        public async Task<IActionResult> DeleteUserAsync(string id)
+        {
+            ApplicationUser user = await _userManager.FindByIdAsync(id);
+            if (user != null)
+            {
+                IdentityResult result = await _userManager.DeleteAsync(user);
+                if (result.Succeeded)
+                    return RedirectToAction("Index");
+                else
+                    _toastNotification.AddErrorToastMessage("Some Error Occured");
+            }
+            else
+                ModelState.AddModelError("", "User Not Found");
+            return View("UserList", _userManager.Users);
+           
+        }
 
+        [HttpGet]
+        public async Task<IActionResult> AddRole()
+        {
+           var res = await _roleManager.CreateAsync(new IdentityRole("Writers"));
+           
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddRole(string Role)
+        {
+            var res = await _roleManager.CreateAsync(new IdentityRole(Role));
+            // var res = _mapper.Map<UserViewModel>(user);
+            return View("AddRole", res);
+        }
+       
+        [HttpPost]
+        public async Task<IActionResult> DeleteRole(string id)
+        {
+            IdentityRole role = await _roleManager.FindByIdAsync(id);
+            if (role != null)
+            {
+                IdentityResult result = await _roleManager.DeleteAsync(role);
+                if (result.Succeeded)
+                    return RedirectToAction("Index");
+                else
+                    _toastNotification.AddErrorToastMessage("Some Error Occured");
+            }
+            else
+                ModelState.AddModelError("", "No role found");
+            return View("Index", _roleManager.Roles);
+        }
         #endregion
 
     }
