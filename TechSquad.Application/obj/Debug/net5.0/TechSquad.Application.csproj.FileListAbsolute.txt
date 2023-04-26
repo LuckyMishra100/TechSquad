@@ -287,6 +287,9 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\refs\Win
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Application.Views.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\TechSquad.Application.Views.pdb
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\AutoMapper.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\FluentValidation.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Humanizer.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -428,6 +431,7 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\scopedcs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.TagHelpers.input.cache
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.TagHelpers.output.cache
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.RazorCoreGenerate.cache
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\AddRole.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\AddUser.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\AdminDashboard.cshtml.g.cs
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Admin\UserList.cshtml.g.cs
@@ -451,3 +455,4 @@ E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSqua
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\ref\TechSquad.Application.dll
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.pdb
 E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.genruntimeconfig.cache
+E:\Lucky_Demo_Projects\TechSquad\TechSquad.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
