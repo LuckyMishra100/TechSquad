@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj": {}
+    "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj": {}
   },
   "projects": {
-    "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj": {
+    "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj",
+        "projectUniqueName": "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj",
         "projectName": "TechSquad.Application",
-        "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Application\\obj\\",
+        "projectPath": "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Local\\TechSquads\\TechSquad.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj": {
-                "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj"
+              "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj": {
+                "projectPath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj"
               },
-              "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj": {
-                "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj"
+              "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj": {
+                "projectPath": "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj"
               }
             }
           }
@@ -101,10 +96,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -113,26 +115,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj": {
+    "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj",
+        "projectUniqueName": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj",
         "projectName": "TechSquad.Models",
-        "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\obj\\",
+        "projectPath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Local\\TechSquads\\TechSquad.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,7 +194,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -206,26 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj": {
+    "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj",
+        "projectUniqueName": "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj",
         "projectName": "TechSquad.Services",
-        "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Services\\obj\\",
+        "projectPath": "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Local\\TechSquads\\TechSquad.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,8 +232,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj": {
-                "projectPath": "E:\\Lucky_Demo_Projects\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj"
+              "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj": {
+                "projectPath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj"
               }
             }
           }
@@ -270,7 +263,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -279,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
