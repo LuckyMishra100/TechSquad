@@ -919,3 +919,5 @@ E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\refint\TechSquad.Appl
 E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.pdb
 E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\TechSquad.Application.genruntimeconfig.cache
 E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\ref\TechSquad.Application.dll
+E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Home\AboutUs.cshtml.g.cs
+E:\Local\TechSquads\TechSquad.Application\obj\Debug\net5.0\Razor\Views\Home\ContactUs.cshtml.g.cs
