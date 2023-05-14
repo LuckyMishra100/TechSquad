@@ -6293,11 +6293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj",
+      "projectUniqueName": "E:\\Local\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj",
       "projectName": "TechSquad.Models",
-      "projectPath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj",
+      "projectPath": "E:\\Local\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\Local\\TechSquads\\TechSquad.Models\\obj\\",
+      "outputPath": "E:\\Local\\TechSquad\\TechSquad.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

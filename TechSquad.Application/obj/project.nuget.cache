@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IsEmwwKuC7PR/RsK+LnzsvLYaQ3CBNaHF3gHcXs4GY7pPuY+2wcc8vXrNdrE0hZdl5xAKRNtOF3UE+3Tl+aTTw==",
+  "dgSpecHash": "yIFw081sKpWvliwt8VauXNzEOFkHu2/t/Lx7gTvEARdQshyAisQqCmU7IbKH5g9Rz+IqLwsoT1xoTXX+5QLgKQ==",
   "success": true,
-  "projectFilePath": "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj",
+  "projectFilePath": "E:\\Local\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

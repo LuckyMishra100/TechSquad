@@ -10837,11 +10837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj",
+      "projectUniqueName": "E:\\Local\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj",
       "projectName": "TechSquad.Application",
-      "projectPath": "E:\\Local\\TechSquads\\TechSquad.Application\\TechSquad.Application.csproj",
+      "projectPath": "E:\\Local\\TechSquad\\TechSquad.Application\\TechSquad.Application.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\Local\\TechSquads\\TechSquad.Application\\obj\\",
+      "outputPath": "E:\\Local\\TechSquad\\TechSquad.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10858,11 +10858,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj": {
-              "projectPath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj"
+            "E:\\Local\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj": {
+              "projectPath": "E:\\Local\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj"
             },
-            "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj": {
-              "projectPath": "E:\\Local\\TechSquads\\TechSquad.Services\\TechSquad.Services.csproj"
+            "E:\\Local\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj": {
+              "projectPath": "E:\\Local\\TechSquad\\TechSquad.Services\\TechSquad.Services.csproj"
             }
           }
         }

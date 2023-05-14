@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jTDPIDosohfNLo+aKImUHZEb4VyIJdyvhvY/VItNbL9moRxalYJKXk5wz2W2KLPXiN/pg5rbKUOeusmhVCrFdw==",
+  "dgSpecHash": "QA31FsiCUGrJwjVz0bRs95kM1Ezz/FOVQ2RHJnF/sXWuGRNuquDJ9A9duRQfAdRTzPhjezDTtwk90OvtqtUoCQ==",
   "success": true,
-  "projectFilePath": "E:\\Local\\TechSquads\\TechSquad.Models\\TechSquad.Models.csproj",
+  "projectFilePath": "E:\\Local\\TechSquad\\TechSquad.Models\\TechSquad.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
